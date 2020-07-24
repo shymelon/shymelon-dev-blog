@@ -1,0 +1,28 @@
+theme: ./theme/dist
+
+siteConfig:
+  title: Shymelon dev blog
+  url: https://shymelon-dev-blog.vercel.app
+  author: Shymelon
+  email: shymelon.dev@gmail.com
+  description: Небольшой бложик с статейками от молодого бойца переднего конца веб разработки.
+
+themeConfig:
+  nav:
+    - text: Статьи
+      link: /
+    - text: Обо мне
+      link: /about.html
+  social:
+    github: shymelon
+    telegram: shymelon
+    rss: false
+
+plugins:
+    - resolve: saber-plugin-query-posts
+    - resolve: saber-plugin-feed
+      options:
+        atomFeed: true
+    - resolve: saber-plugin-google-analytics
+      options:
+        trackId: UA-173055869-1

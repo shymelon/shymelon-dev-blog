@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "saber",
+    "build": "saber build"
+  },
+  "devDependencies": {
+    "saber": "latest",
+    "saber-plugin-feed": "latest",
+    "saber-plugin-query-posts": "latest",
+    "saber-theme-minima": "latest"
+  },
+  "dependencies": {
+    "saber-plugin-google-analytics": "^0.2.1"
+  }
+}

@@ -1,5 +1,7 @@
 theme: ./theme/dist
 
+build:
+  publicUrl: /shymelon-dev-blog
 siteConfig:
   title: Shymelon dev blog
   url: https://shymelon-dev-blog.vercel.app
